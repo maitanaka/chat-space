@@ -9,15 +9,20 @@
 /.bundle
 
 # Ignore all logfiles and tempfiles.
-/log/*
-!/log/.keep
+*.rbc
+capybara-*.html
+.rspec
+/log
 /tmp
+<<<<<<< HEAD
 =======
 *.rbc
 capybara-*.html
 .rspec
 /log
 /tmp
+=======
+>>>>>>> 84ec7faf93723797632773747d332ba6e8518963
 /db/*.sqlite3
 /db/*.sqlite3-journal
 /public/system
@@ -27,9 +32,17 @@ capybara-*.html
 rerun.txt
 pickle-email-*.html
 
+<<<<<<< HEAD
 # TODO Comment out these rules if you are OK with secrets being uploaded to the repo
 config/initializers/secret_token.rb
 config/secrets.yml
+=======
+# TODO Comment out this rule if you are OK with secrets being uploaded to the repo
+config/initializers/secret_token.rb
+
+# Only include if you have production secrets in this file, which is no longer a Rails default
+# config/secrets.yml
+>>>>>>> 84ec7faf93723797632773747d332ba6e8518963
 
 # dotenv
 # TODO Comment out this rule if environment variables can be committed
@@ -55,4 +68,7 @@ bower.json
 
 # Ignore Byebug command history file.
 .byebug_history
+<<<<<<< HEAD
 >>>>>>> 1a88e7317fb52d5fd0157c30603b9883e7df36a5
+=======
+>>>>>>> 84ec7faf93723797632773747d332ba6e8518963
