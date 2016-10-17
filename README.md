@@ -50,6 +50,17 @@
 - `belongs_to :chat_group`
 - `belongs_to :user
 
+## Function list of ChatSpace
+- 新規登録機能
+- 1対1のチャット機能
+- 複数人によるグループチャット機能
+- チャット相手の検索機能
+- チャットグループへのユーザー招待機能
+- チャットの履歴表示機能
+- 画像送信機能
+- チャットの自動更新
+
+
 ## Step
 
 ### `step/01-markup`
