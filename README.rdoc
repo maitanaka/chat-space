@@ -33,3 +33,19 @@
 - `has_many :chat_group_users`
 - `has_many :messages`
 
+### chat_group_users
+
+#### table
+
+- chat_group_id :integer, null: false
+- user_id :integer, null: false
+
+#### index
+
+- chat_group_id
+- user_id
+
+#### association
+
+- `belongs_to :chat_group`
+- `belongs_to :user
