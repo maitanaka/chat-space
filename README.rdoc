@@ -1,4 +1,5 @@
 # README
+===
 
 ## `Tables`
 
@@ -19,3 +20,16 @@
 
 - chat_group_id
 - user_id
+
+### chat_groups
+
+#### table
+
+- group_name :string, null: false
+
+#### association
+
+- `has_many :users, through :chat_group_users`
+- `has_many :chat_group_users`
+- `has_many :messages`
+
