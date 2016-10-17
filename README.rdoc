@@ -1,19 +1,19 @@
 == README
 
-#Tables
+# Tables
 
-##Messages
+## Messages
 
-###table
+### table
 - text            :text        null: false
 - image           :string
 - chat_group_id   :integer     null: false
 - user_id         :integer     null: false
 
-###association
+### association
 `belongs_to :users, chat_groups
 `
-###index
+### index
 - chat_group_id
 - user_id
 
